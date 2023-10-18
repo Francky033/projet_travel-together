@@ -1,0 +1,190 @@
+nav {
+  background-color: white;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.logo_nav {
+  height: 40px;
+}
+
+.navbar-toggler {
+  color: white !important;
+  border: solid white;
+}
+
+.nav-link:hover {
+  color: orange !important;
+}
+
+.navbar-toggler:hover {
+  color: orange;
+  border: solid orange;
+}
+
+.nav-link {
+  padding: 0 25px;
+}
+
+#section_header {
+  background: rgb(214, 133, 103);
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  padding: 4%;
+  overflow: hidden;
+  margin-top: 15px;
+  color: white;
+}
+
+.img_iphone {
+  position: absolute;
+  width: 200px;
+  left: 250px;
+  top: 40px;
+}
+
+.iphone_colonne {
+  position: relative;
+}
+
+.txt_service {
+  margin-left: 10%;
+  margin-top: 3%;
+  color: black;
+}
+
+#section_main_service {
+  color: white;
+  border-radius: 5px;
+}
+
+.img_seul {
+  background-image: url(/assets/images/homme-assis-batiment.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_double1 {
+  background-image: url(/assets/images/passport.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_main {
+  border-radius: 10px;
+}
+
+.img_main:hover {
+  filter: brightness(80%);
+  color: white;
+}
+
+.img_double2 {
+  background-image: url(/assets/images/montgolfiere.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lien_view {
+  text-decoration: none;
+  color: white;
+}
+
+.txt_feature {
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+.fa-solid {
+  font-size: 50px;
+}
+
+#section_main_feature {
+  background-image: url(/assets/images/wave.svg);
+  background-size: cover;
+  padding-bottom: 10%;
+}
+
+#section_de_fin {
+  background: rgb(214, 133, 103);
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  margin-top: -3%;
+  color: white;
+  height: auto;
+  position: relative;
+  z-index: auto;
+}
+
+.btn {
+  text-decoration: none;
+  border: solid black;
+  background-color: white;
+  padding: 1%;
+  color: black;
+  display: inline-block;
+  margin-top: 1%;
+  box-shadow: 4px 3px 2px 0px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  text-decoration: none;
+  border: solid black;
+  background-color: rgb(223, 186, 186);
+  padding: 1%;
+  color: black;
+  display: inline-block;
+  margin-top: 1%;
+  box-shadow: 0px 0px 0px;
+}
+
+.btn_touch {
+  bottom: 20px;
+}
+
+#footer1 {
+  background-color: black;
+  padding-top: 7%;
+  color: white;
+}
+
+.logo_footer {
+  width: 150px;
+}
+
+.nav-link_footer {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+.trait {
+  border: solid white 0.5px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*# sourceMappingURL=styles.css.map */
